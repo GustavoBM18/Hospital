@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pediatría - Hospital Juvenil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #00b894; /* Verde para pediatría */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #00b894;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .pediatria-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .pediatria-info h3 {
+            color: #00b894;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .pediatria-info p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .pediatria-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .pediatria-list li {
+            background-color: #e8f6f3;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 5px solid #00b894;
+            border-radius: 5px;
+        }
+
+        .pediatria-list li strong {
+            color: #00b894;
+        }
+
+        .costos-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .costos-table th, .costos-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .costos-table th {
+            background-color: #00b894;
+            color: white;
+            font-weight: bold;
+        }
+
+        .costos-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pediatría - Hospital Juvenil</h1>
+    </header>
+
+    <main>
+        <!-- Información de pediatría -->
+        <section class="pediatria-info">
+            <h2>Bienvenidos al Área de Pediatría</h2>
+            <p>En el Hospital Juvenil, nos dedicamos a brindar atención médica especializada para niños y adolescentes. Nuestro equipo de pediatras está comprometido con el bienestar y la salud de los más pequeños.</p>
+        </section>
+
+        <!-- Servicios de pediatría -->
+        <section>
+            <h2>Servicios de Pediatría</h2>
+            <ul class="pediatria-list">
+                <li>
+                    <strong>Consultas de Control:</strong> Revisiones periódicas para monitorear el crecimiento y desarrollo.
+                </li>
+                <li>
+                    <strong>Vacunación:</strong> Aplicación de vacunas según el esquema nacional de salud.
+                </li>
+                <li>
+                    <strong>Tratamiento de Enfermedades:</strong> Atención para gripes, infecciones, alergias y más.
+                </li>
+                <li>
+                    <strong>Nutrición Infantil:</strong> Asesoría para una alimentación saludable.
+                </li>
+                <li>
+                    <strong>Emergencias Pediátricas:</strong> Atención inmediata para casos urgentes.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Costos de consultas -->
+        <section>
+            <h2>Costos de Consultas</h2>
+            <table class="costos-table">
+                <thead>
+                    <tr>
+                        <th>Tipo de Consulta</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consulta General</td>
+                        <td>$400 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Consulta de Vacunación</td>
+                        <td>$300 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Consulta de Nutrición</td>
+                        <td>$500 MXN</td>
+                    </tr>
+                    <tr>
+                        <td>Emergencia Pediátrica</td>
+                        <td>$800 MXN</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Horarios de atención -->
+        <section class="pediatria-info">
+            <h2>Horarios de Atención</h2>
+            <p>Nuestro servicio de pediatría está disponible en los siguientes horarios:</p>
+            <ul class="pediatria-list">
+                <li><strong>Lunes a Viernes:</strong> 8:00 AM - 6:00 PM</li>
+                <li><strong>Sábados:</strong> 9:00 AM - 2:00 PM</li>
+                <li><strong>Domingos:</strong> Solo emergencias</li>
+            </ul>
+        </section>
+
+        <!-- Contacto -->
+        <section class="pediatria-info">
+            <h2>Contacto</h2>
+            <p>Para más información o agendar una cita, contáctanos:</p>
+            <p><strong>Teléfono:</strong> 555-987-6543</p>
+            <p><strong>Correo Electrónico:</strong> pediatria@hospitaljuvenil.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hospital Juvenil. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
